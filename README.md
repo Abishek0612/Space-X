@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+     <!-- POSTMAN DOCUMENTATION URL OF SPACE X-->
+ https://docs.spacexdata.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- API URL OF SPACE X -->
+ 'https://api.spacexdata.com/v3/launches'
 
-## Available Scripts
 
-In the project directory, you can run:
+ <!-- HEADER PAGE (NAVBAR) -->
+1) Created a navbar with React Bootstrap
+2)For Icons used react icons
+3) For Routing to the next page used React router Dom
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- Home Page -->
+1)Used a background image.
+2) Used a earth image gave some radius and with the help of animation made it to rotate in Web app.
+ and in mobile view i gave display none.
+3) Gave 2 buttons (HISTORY and  MISSIONS) which routes to their own page with react router dom.
+4) Used a package called react-typical which loops through the wordings.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<!-- LAUNCHES PAGE -->
+1)Created a file called data.js with  few images, title, icon and description in Object Array.
+2)In Launch.js file with map function i displayed images, title, icon and description in Cards.
+3)Used Syntactically Awesome Style Sheets (SASS) for styling purpose.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ROCKETS PAGE -->
+1)For this i used a Public API of Space X (Postman documentation URL mentioned in the top of README).
+2)For Filtering through Api used useState and javascript filter function to search and filter the names.
+3)Created a loader with the help of React hooks (useState).
+4)Used axios to fetch the API.
+5) With map function i displayed images, name, launch date , launch year and rocket type in Cards.
+6)Used Syntactically Awesome Style Sheets (SASS) for styling purpose.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<!-- MISSIONS PAGE -->
+1)For this i used a Public API of Missions from Space x.
+2)For Filtering through Api used useState and javascript filter function to search and filter the names.
+3)Created a loader with the help of React hooks (useState).
+4)Used axios to fetch the API.
+5) With map function i displayed  Name, ID and URL type in Cards.
+6)Used Syntactically Awesome Style Sheets (SASS) for styling purpose.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- HISTORY PAGE -->
+1)In this page we can able to view the history about Space x.
+2)Used Syntactically Awesome Style Sheets (SASS) for styling purpose.
+ 

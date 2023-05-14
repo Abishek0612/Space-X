@@ -1,0 +1,51 @@
+main {
+  background-color: rgb(66, 14, 114);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+
+
+  input {
+    margin-top: 100px;
+    margin-left: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .mission-container {
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+    justify-content: center;
+  }
+
+  
+  .mission-container   :hover{
+    background-color: black;
+    color: white;
+  }
+  
+  
+  .mission-content {
+    
+    cursor: pointer;  
+    margin: 20px;
+    width: 390px;
+    text-align: center;
+    border: 1px solid rgb(127, 99, 99);
+    border-radius: 8px;
+  }
+
+
+  h2 {
+    color: white;
+  }
+
+  h6 {
+    color: white;
+  }
+}

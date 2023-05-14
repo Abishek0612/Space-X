@@ -1,0 +1,30 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  z-index: 9;
+}
+
+.title {
+  display: flex;
+  padding-right: 30px;
+  transition: 0.6s ease;
+  color: white;
+}
+
+h5{
+  transition: 0.6s ease;
+}
+
+h5:hover {
+  background-color: grey;
+  
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+}
