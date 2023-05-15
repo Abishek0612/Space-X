@@ -24,7 +24,7 @@ function Rockets() {
   }, []);
 
   return (
-    <main>
+    <div className="main__rockets">
       <input
         type="text"
         value={search}
@@ -64,7 +64,7 @@ function Rockets() {
             ))
         )}
       </div>
-    </main>
+    </div>
   );
 }
 

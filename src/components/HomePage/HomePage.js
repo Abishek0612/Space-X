@@ -1,6 +1,5 @@
 import React from "react";
 import "./homepage.css";
-import earth from "../../assets/images/earth.png";
 import Typical from "react-typical";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
@@ -8,8 +7,7 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <div className="background-container">
-      <div className="earth">
-        <img className="earth-img" src={earth} alt="earth" />
+      <div className="home__page">
         <div className="buttons">
           <Link className="link" to="/history">
             <Button variant="primary">History</Button>

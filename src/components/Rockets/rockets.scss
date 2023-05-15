@@ -1,6 +1,7 @@
-main {
+.main__rockets {
   background-color: rgb(66, 14, 114);
-  height: fit-content;
+  // height: fit-content;
+  height: 100%;
 
   input {
     margin-top: 100px;
@@ -30,6 +31,10 @@ main {
   h2 {
     color: white;
   }
+
+  h6 {
+    color: white;
+  }
   p {
     color: white;
   }
@@ -46,8 +51,6 @@ main {
 // FOR MOBILE AND TABLET
 @media screen and (max-width: 768px) and (max-width: 1024px) {
   main {
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     width: 100vw;
     height: fit-content;

@@ -14,14 +14,23 @@ nav {
   display: flex;
   transition: 0.6s ease;
   color: white;
+  border: 1px solid black;
+  border: none;
+  border-radius: 8px;
 }
 
 h5 {
   transition: 0.6s ease;
+  border: 1px solid beige;
+  border: none;
+  background-color: yellow;
+  padding: 5px;
+  color: black;
+  border-radius: 6px;
 }
 
 h5:hover {
-  background-color: grey;
+  background-color: orange;
 
   padding: 5px;
   border-radius: 5px;
@@ -40,7 +49,7 @@ h5:hover {
 }
 
 /* Tablets */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 390px) and (max-width: 1024px) {
   .title {
     padding-right: 20px;
     font-size: 22px;
@@ -48,16 +57,5 @@ h5:hover {
 
   h5 {
     font-size: 16px;
-  }
-}
-
-@media only screen and (min-width: 1025px) {
-  .title {
-    padding-right: 30px;
-    font-size: 24px;
-  }
-
-  h5 {
-    font-size: 18px;
   }
 }
