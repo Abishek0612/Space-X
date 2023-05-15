@@ -1,5 +1,5 @@
 .background-container {
-  background-image: url("../../assets/images/spaceship.avif");
+  background-image: url("../../assets/images/sky4.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,13 +22,14 @@
   height: 200px;
   margin-top: 100px;
   margin-left: 10%;
-  z-index: 999;
 }
 
 h1 {
-  color: black;
+  color: white;
+  z-index: 999;
+  font-size: 24px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
 }
 
 .earth img {
@@ -48,8 +49,11 @@ h1 {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) and (max-width: 1024px) {
   .earth-img {
     display: none;
+  }
+  .buttons {
+    margin-top: 90px;
   }
 }

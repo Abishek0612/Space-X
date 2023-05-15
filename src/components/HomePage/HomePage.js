@@ -10,15 +10,16 @@ function HomePage() {
     <div className="background-container">
       <div className="earth">
         <img className="earth-img" src={earth} alt="earth" />
-
-        <Link className="link" to="/history">
-          <Button variant="primary">History</Button>
-        </Link>
-        <Link to="/missions">
-          <Button className="link" variant="primary">
-            Missions{" "}
-          </Button>
-        </Link>
+        <div className="buttons">
+          <Link className="link" to="/history">
+            <Button variant="primary">History</Button>
+          </Link>
+          <Link to="/missions">
+            <Button className="link" variant="primary">
+              Missions{" "}
+            </Button>
+          </Link>
+        </div>
 
         <div className="content">
           <h1>

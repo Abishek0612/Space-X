@@ -69,33 +69,3 @@ function Rockets() {
 }
 
 export default Rockets;
-
-/* .launch{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-    margin-top: 100px;
-} */
-
-/* .launch-content{
-    margin: 20px;
-    width: 300px;
-    text-align: center;
-    border: 1px solid rgb(127, 99, 99);
-    border-radius: 5px;
-    height: 20%;
-
-} */
-/* 
-.launch-content:hover{
-    background-color: blue;
-    border-radius: 5px;
-    color: white;
-} */
-
-/* .launch-img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    margin-bottom: 10px;
-} */

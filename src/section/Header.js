@@ -12,7 +12,7 @@ function Header() {
         <Container>
           <Navbar.Brand>
             <Link className="link" to="/">
-              <div className="title">
+              <div className="title link">
                 <GiSpaceShuttle />
                 <h2>Space~X</h2>
               </div>

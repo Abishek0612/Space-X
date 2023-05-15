@@ -4,14 +4,14 @@
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  box-shadow: rgb(163, 163, 202);
+  /* box-shadow: rgb(163, 163, 202); */
 
 }
 
-.link :hover {
+/* .link :hover {
   opacity: 0.9;
   box-shadow: rgb(4, 4, 166);
-}
+} */
 
 *{
   padding: 0;

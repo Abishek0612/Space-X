@@ -4,11 +4,8 @@ main {
   background-repeat: no-repeat;
   min-height: 100vh;
 
-
-
   input {
     margin-top: 100px;
-    margin-left: 30px;
     text-align: center;
     display: inline-block;
     padding: 5px;
@@ -23,16 +20,13 @@ main {
     justify-content: center;
   }
 
-  
-  .mission-container   :hover{
+  .mission-container :hover {
     background-color: black;
     color: white;
   }
-  
-  
+
   .mission-content {
-    
-    cursor: pointer;  
+    cursor: pointer;
     margin: 20px;
     width: 390px;
     text-align: center;
@@ -40,12 +34,18 @@ main {
     border-radius: 8px;
   }
 
-
   h2 {
     color: white;
   }
 
   h6 {
     color: white;
+  }
+}
+
+// FOR MOBILE AND TABLET
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+  main {
+    width: fit-content;
   }
 }
