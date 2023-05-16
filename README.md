@@ -13,10 +13,9 @@
 
 <!-- Home Page -->
 1)Used a background image.
-2) Used a earth image gave some radius and with the help of animation made it to rotate in Web app.
- and in mobile view i gave display none.
-3) Gave 2 buttons (HISTORY and  MISSIONS) which routes to their own page with react router dom.
-4) Used a package called react-typical which loops through the wordings.
+2) Gave 2 buttons (HISTORY and  MISSIONS) which routes to their own page with react router dom.
+3) Used a package called react-typical which loops through the wordings.
+
 
 
 <!-- LAUNCHES PAGE -->

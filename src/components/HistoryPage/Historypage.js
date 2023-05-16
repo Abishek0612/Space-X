@@ -3,7 +3,7 @@ import "./history.scss";
 function Historypage() {
   return (
     <div className="history-main">
-      <h1>History of Space~X</h1>
+      <h1 style={{position:'sticky'}}>History of Space~X</h1>
       <div className="history-container">
         <div className="history-content">
           <div className="history">

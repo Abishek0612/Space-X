@@ -1,5 +1,5 @@
 .background-container {
-  background-image: url("../../assets/images/spaceship.jpeg");
+  background-image: url("../../assets/images/aircraft.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,11 +21,11 @@
   width: 200px;
   height: 200px;
   margin-left: 7%;
-  margin-top: 310px;
+  margin-top: 100px;
 }
 
 h1 {
-  color: black;
+  color: white;
   z-index: 999;
   font-size: 24px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
